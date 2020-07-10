@@ -3,7 +3,7 @@
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "sdMenuConfirm",
-    "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
+    "audioGroupGuid": "17cc4302-bc2c-4176-a8eb-1dd3d8dbac0b",
     "bitDepth": 1,
     "bitRate": 128,
     "kind": 0,

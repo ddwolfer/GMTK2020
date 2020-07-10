@@ -4,7 +4,9 @@
 
 
 var windowSize =  window_get_width()/room_width
-
+if( window_get_fullscreen() ){
+	windowSize = 2
+}
 var Button = argument0
 var MX = mouse_x
 var MY = mouse_y

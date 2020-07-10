@@ -1,8 +1,10 @@
 ///@arg GroupID
 ///@arg button_Color 
 ///@arg mouse_on_button_Color
-
 var windowSize =  window_get_width()/room_width
+if( window_get_fullscreen() ){
+	windowSize = 2
+}
 var group = argument0
 ButtonGroup = group[?"button"]
 var MX = mouse_x
