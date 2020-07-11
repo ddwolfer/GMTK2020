@@ -2,6 +2,8 @@ if( MenuStatus == MenuStatus.main ){
 	draw_button_group(MenuGroup,c_white,c_gray)
 }else if( MenuStatus == MenuStatus.option ){ 
 	draw_button_group(optionGroup,c_white,c_gray)
+	draw_button_gui(decreaseSoundButton,c_white,c_gray)
+	draw_button_gui(increaseSoundButton,c_white,c_gray)
 	var soundNow = SOUND_VOLUME * 10
 	draw_set_color(c_white)
 	draw_rectangle(Fx1*2, (soundTextY-10)*2, Fx2*2, (soundTextY+10)*2,0)

@@ -4,8 +4,9 @@
     "mvc": "1.1",
     "name": "d175418d-6daf-4c57-aae4-bc94e35adf65",
     "children": [
-        "7cfa726c-994f-4a7c-8578-8a3a457f75c4",
-        "f5ebad5f-4f72-428b-83c5-b3d7a2fc0356"
+        "f5ebad5f-4f72-428b-83c5-b3d7a2fc0356",
+        "8a21b4c5-5f96-4089-b3c3-c0eb527ad569",
+        "980ab5cb-35d4-4560-8b6e-4a586bdf6bcb"
     ],
     "filterType": "GMObject",
     "folderName": "Monster",

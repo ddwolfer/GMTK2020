@@ -6,8 +6,8 @@ if(!DiceEnd){
 	if(place_meeting(x,y,oPlayer) && Dice == Dice.none ){
 		Dice = Dice.roll
 		oPlayer.control = false
-		RollX = oPlayer.x *4
-		RollY = oPlayer.y *4 -130
+		RollX = (oPlayer.x - 25 )*2 
+		RollY = (oPlayer.y - 60 )*2
 	}
 	if( Dice == Dice.roll ){
 		if( start ){

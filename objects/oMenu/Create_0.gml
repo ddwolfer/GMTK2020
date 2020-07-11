@@ -26,3 +26,5 @@ Fx2 = width+(box_width/2)+10
 Fy2 = height+(box_height/2)
 backButton = button_box_init("Back",width-box_width,height+(box_height*3/2),width+box_width,height+(box_height*5/2))
 optionGroup = button_group_init(soundSetting, fullscreenSetting, backButton, 1)
+decreaseSoundButton = button_box_init("<",Fx1-box_height, height-(box_height*5/2), Fx1, height-(box_height*3/2)) 
+increaseSoundButton = button_box_init(">",Fx2, height-(box_height*5/2), Fx2+box_height, height-(box_height*3/2))

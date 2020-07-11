@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "35d98dc8-4e21-4f7d-b193-609c0c0b9521",
+            "Value": {
+                "id": "86df92db-396a-4051-a341-94ca4af00c31",
+                "resourcePath": "sprites\\coin\\coin.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "38ed0991-406a-4974-992c-a4b821f64fda",
             "Value": {
                 "id": "10705e0b-a800-4a0f-b20e-ce01823ca0ed",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "77618b15-2036-48e4-bed1-14944a910bac",
+            "Value": {
+                "id": "e666fd9e-5e90-41aa-b9b7-0a05416e249d",
+                "resourcePath": "sprites\\sNull\\sNull.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7a16eb54-cdbb-4491-9671-76ef8cdb5ede",
             "Value": {
                 "id": "306dd728-0fc7-4d0c-9b75-6657195e19b1",
@@ -412,14 +428,6 @@
                 "id": "547dc291-6131-4a79-b469-47240157030f",
                 "resourcePath": "views\\7bdfa200-4155-4d23-81dc-7b8c05f86a73.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "7cfa726c-994f-4a7c-8578-8a3a457f75c4",
-            "Value": {
-                "id": "ccc6e5c5-1e37-49cb-9e42-7dab2ee405b2",
-                "resourcePath": "objects\\monsterWalk\\monsterWalk.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -447,6 +455,14 @@
             }
         },
         {
+            "Key": "8a21b4c5-5f96-4089-b3c3-c0eb527ad569",
+            "Value": {
+                "id": "5ad72554-0b25-494e-8849-c315ff6ac235",
+                "resourcePath": "objects\\oPoison_slime\\oPoison_slime.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c0c9372-a9b8-41ad-bb3e-c073085d479c",
             "Value": {
                 "id": "49672f80-edcb-45e9-94ec-cb574398c8f7",
@@ -468,6 +484,14 @@
                 "id": "29b0136f-68e5-4b4a-bd41-98f065e02917",
                 "resourcePath": "sounds\\sdMenuSelect\\sdMenuSelect.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "980ab5cb-35d4-4560-8b6e-4a586bdf6bcb",
+            "Value": {
+                "id": "5f94e66d-e6a8-4287-afab-55fd52f16d16",
+                "resourcePath": "objects\\oMonsterParents\\oMonsterParents.yy",
+                "resourceType": "GMObject"
             }
         },
         {
