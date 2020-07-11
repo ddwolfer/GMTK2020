@@ -13,3 +13,11 @@ control = true;
 depth = 10;
 
 textboxFlag = 0
+
+//state machine
+enum state {
+	move,
+	attack
+}
+
+state = state.move;

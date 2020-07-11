@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "05718a89-de27-459e-88a3-1cb40bf0f64c",
-            "Value": {
-                "id": "c3d0c005-affb-4795-98bf-0af8e8a91419",
-                "resourcePath": "rooms\\room1\\room1.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "092c256f-58aa-4171-9c68-ebf2286dada3",
             "Value": {
                 "id": "867cffd4-9335-41c6-928c-64dd0e1a436b",
@@ -266,7 +258,7 @@
             "Key": "56251b40-997c-4af2-8617-a7b29f29f9cc",
             "Value": {
                 "id": "5f60fd59-9047-4d2b-a492-a45335ca287e",
-                "resourcePath": "sprites\\sSword\\sSword.yy",
+                "resourcePath": "sprites\\sGun\\sGun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -431,6 +423,22 @@
             }
         },
         {
+            "Key": "7cfa726c-994f-4a7c-8578-8a3a457f75c4",
+            "Value": {
+                "id": "ccc6e5c5-1e37-49cb-9e42-7dab2ee405b2",
+                "resourcePath": "objects\\monsterWalk\\monsterWalk.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "7dbf9ce7-60e3-4159-b4c5-8a17fce2ab41",
+            "Value": {
+                "id": "dbebaaaf-db4e-48a7-8f17-a28dd2ae52d6",
+                "resourcePath": "rooms\\room3\\room3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "80b72cb0-70d4-4149-8842-5df5874858f8",
             "Value": {
                 "id": "44e320db-15b9-4014-8122-7e3780e3816b",
@@ -484,6 +492,14 @@
                 "id": "29b0136f-68e5-4b4a-bd41-98f065e02917",
                 "resourcePath": "sounds\\sdMenuSelect\\sdMenuSelect.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "96c63d9a-92bc-451c-8336-d50819efb8b3",
+            "Value": {
+                "id": "930ce42e-a113-43d9-83dc-c96f08416b86",
+                "resourcePath": "sprites\\sSword\\sSword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -570,7 +586,7 @@
             "Key": "b0758402-3d19-40a2-be50-0560e5a3d9db",
             "Value": {
                 "id": "116b4861-51b8-44d3-b999-f39829f0f97a",
-                "resourcePath": "rooms\\room01\\room01.yy",
+                "resourcePath": "rooms\\room2\\room2.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -722,7 +738,7 @@
             "Key": "e65e9ddc-d095-4173-9d35-bdff17cb034c",
             "Value": {
                 "id": "43da45f2-4976-44ca-9aa6-1fdb7dbcc726",
-                "resourcePath": "objects\\oSword\\oSword.yy",
+                "resourcePath": "objects\\oGun\\oGun.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -772,6 +788,14 @@
                 "id": "a12cf352-42cf-455f-af8f-1219dc5bf710",
                 "resourcePath": "sprites\\sPoison_slime_move\\sPoison_slime_move.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fa8d6f12-de57-41ec-bf07-eba5af2b8f82",
+            "Value": {
+                "id": "4d32a54c-5729-4978-b313-4d2ff60d78a3",
+                "resourcePath": "objects\\oSword\\oSword.yy",
+                "resourceType": "GMObject"
             }
         },
         {
