@@ -21,5 +21,4 @@ enum state {
 	move = 0,
 	attack = 1
 }
-state = state.move;
-
+state = state.move

@@ -48,10 +48,12 @@ if(control){
 		alarm[0] = attackCooldown * room_speed
 	}
 	if( state == state.move ){
-		oSword.image_speed = 0;
-		oSword.image_index = 0;
+		oDagger.image_speed = 0;
+		oDagger.image_index = 0;
 	}else if(state == state.attack){
-		with(oSword){
+		create_hit_box(x, y, self, sSwordHitBox, 4, 4, 1, image_xscale);
+		with(oDagger){
+
 			if(animation_end()){
 				oPlayer.state = state.move;
 			}else{
@@ -60,5 +62,3 @@ if(control){
 		}
 	}
 }
-
- 
