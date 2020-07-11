@@ -61,4 +61,6 @@ if(control){
 			}
 		}
 	}
+}else{
+	sprite_index = sPlayerIdle;
 }

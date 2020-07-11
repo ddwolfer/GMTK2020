@@ -8,6 +8,7 @@ enum Page{
 	coinRoll = 1,
 	coinShow = 2,
 	diceRoll = 3,
+	diceShow = 4
 }
 Page = Page.none
 
@@ -17,5 +18,10 @@ coinNum = 0
 
 frameCount = 0
 coinRollFrame = 0
+diceRollFrame = 0
 
-
+diceNum1 = irandom_range(1,6)
+diceNum2 = irandom_range(1,6)
+diceNum3 = irandom_range(1,6)
+diceTextBoxH = 30
+diceTextBoxW = 60

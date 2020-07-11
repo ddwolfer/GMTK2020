@@ -2,7 +2,7 @@
 // You can write your code in this editor
 get_input()
 
-frameCount++
+frameCount+=15
 if( !TriggerEnd ){
 	if(place_meeting(x,y,oPlayer) && Page == Page.none ){
 		Page = Page.coinRoll
@@ -20,9 +20,19 @@ if( !TriggerEnd ){
 		}
 	}
 	if( Page == Page.diceRoll ){
-		
-	
+		if( start ){
+			diceNum1 = irandom_range(1,6)
+			diceNum2 = irandom_range(1,6)
+			diceNum3 = irandom_range(1,6)
+			show_debug_message(string(diceNum1)+"|"+string(diceNum2)+"|"+string(diceNum3)+"|")
+			Page = Page.diceShow
+			alarm[1] = 120
+		}
+	}else if(Page != Page.diceRoll && Page != Page.diceShow){
+		//決定 3個不同的素質
+		diceNum1 = irandom_range(1,6)
+		diceNum2 = irandom_range(1,6)
+		diceNum3 = irandom_range(1,6)
 	}
-	
 }
 
