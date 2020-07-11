@@ -36,7 +36,6 @@ if( MenuStatus == MenuStatus.main ){
 	//set audio
 	if( button_group_get_cursor(optionGroup) == 0 ){
 		if( leftMenu ){
-			show_debug_message("-------------")
 			scrChangeSoundVolume(-0.1)
 		}
 		if( rightMenu ){

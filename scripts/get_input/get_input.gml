@@ -10,6 +10,7 @@ upMenu = keyboard_check_pressed(vk_up);
 downMenu = keyboard_check_pressed(vk_down);
 leftMenu = keyboard_check_pressed(vk_left);
 rightMenu = keyboard_check_pressed(vk_right);
+start = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space);
 /*up = keyboard_check(vk_up); 
 down = keyboard_check(vk_down);
 left = keyboard_check(vk_left);
@@ -19,7 +20,7 @@ actionTurbo =  keyboard_check(ord("X"));
 jump = keyboard_check_pressed(ord("Z")); 
 jumpRelease = keyboard_check_released(ord("Z"));
 jumpHold = keyboard_check(ord("Z"));
-start = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space);
+
 select = keyboard_check_pressed(vk_escape);
 
 leftMenu = keyboard_check_pressed(vk_left);
