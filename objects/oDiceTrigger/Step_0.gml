@@ -11,7 +11,7 @@ if(!DiceEnd){
 	}
 	if( Dice == Dice.roll ){
 		if( start ){
-			DiceNum = floor(random_range(1,6))
+			DiceNum = irandom_range(1,6)
 			show_debug_message("骰到"+string(DiceNum+1))
 			Dice = Dice.show
 			alarm[0] = 180

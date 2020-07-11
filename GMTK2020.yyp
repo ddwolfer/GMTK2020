@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0ee51316-986f-4150-a275-8e5d2bd8e163",
+            "Value": {
+                "id": "a5a70ab8-4a38-46d4-a0d6-51b885d9f160",
+                "resourcePath": "scripts\\black_rectangle\\black_rectangle.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0f01cf4c-82ae-4f00-87c0-e4451e685ae9",
             "Value": {
                 "id": "ec46b9a5-3010-4889-b755-343ca8d792f0",
@@ -71,11 +79,27 @@
             }
         },
         {
+            "Key": "1279fb35-e66c-4748-b4cb-aff47293ec54",
+            "Value": {
+                "id": "b4d7ce90-b21d-473b-9912-f1f8c44a00fc",
+                "resourcePath": "objects\\oCoinTrigger\\oCoinTrigger.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "148255a5-c2f6-4347-9e78-7040e75d5c45",
             "Value": {
                 "id": "c4109101-dfb5-43a5-9eea-ca71d14a91cc",
                 "resourcePath": "scripts\\button_group_init\\button_group_init.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "1bca68e3-2b91-41a9-94ac-f85ff539e8aa",
+            "Value": {
+                "id": "235d75b0-1ee6-4c1e-9f7a-81abeb9c9bb6",
+                "resourcePath": "sprites\\sSpear\\sSpear.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -138,7 +162,7 @@
             "Key": "35d98dc8-4e21-4f7d-b193-609c0c0b9521",
             "Value": {
                 "id": "86df92db-396a-4051-a341-94ca4af00c31",
-                "resourcePath": "sprites\\coin\\coin.yy",
+                "resourcePath": "sprites\\sRollCoin\\sRollCoin.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -783,6 +807,14 @@
             }
         },
         {
+            "Key": "f65bf293-e80d-42e9-bcd6-66b6c4d54f00",
+            "Value": {
+                "id": "da982429-f410-4643-b941-e8745667b8a1",
+                "resourcePath": "rooms\\DwolfTest\\DwolfTest.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "fa72366b-9ebc-49c2-a9a8-eee0b5bb115c",
             "Value": {
                 "id": "a12cf352-42cf-455f-af8f-1219dc5bf710",
@@ -835,6 +867,7 @@
         "ec0fd428-1988-4f7f-a595-33d1ce7939eb",
         "bcf86406-6be8-484c-bbe5-b3c7f36ad3fe",
         "a831a3ba-7cd3-4bae-b282-bad3cbac0e23",
+        "0ee51316-986f-4150-a275-8e5d2bd8e163",
         "0c7437b4-c659-45ad-ab05-59d2795f051b"
     ],
     "tutorial": ""

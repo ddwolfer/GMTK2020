@@ -10,14 +10,16 @@ damaged = false;
 PlayerAttack = false
 
 control = true;
+canAttack = true
+attackCooldown = 1 // x second
 depth = 10;
 
 textboxFlag = 0
 
 //state machine
 enum state {
-	move,
-	attack
+	move = 0,
+	attack = 1
 }
-
 state = state.move;
+

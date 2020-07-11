@@ -42,17 +42,20 @@ if(control){
 		image_xscale = -1;
 	}
 	
-	if(mouseL){
+	if(mouseL && canAttack){
 		state = state.attack;
+		canAttack = false
+		alarm[0] = attackCooldown * room_speed
 	}
-	
-	if(state == state.attack){
+	if( state == state.move ){
+		oSword.image_speed = 0;
+		oSword.image_index = 0;
+	}else if(state == state.attack){
 		with(oSword){
-			image_speed = 1;
 			if(animation_end()){
-				state = state.move;
-				image_speed = 0;
-				image_index = 0;
+				oPlayer.state = state.move;
+			}else{
+				image_speed = 1;
 			}
 		}
 	}
