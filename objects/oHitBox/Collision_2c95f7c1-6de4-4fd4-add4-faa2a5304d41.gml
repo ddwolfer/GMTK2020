@@ -1,0 +1,1 @@
+instance_destroy(oBlue_slime);
