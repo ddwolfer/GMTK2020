@@ -5,7 +5,7 @@ left = keyboard_check(ord("A"));
 action = keyboard_check_pressed(ord("E"));
 attack = keyboard_check_pressed(ord("Q"));
 
-mouseL = mouse_check_button(mb_left);
+mouseL = mouse_check_button_pressed(mb_left);
 upMenu = keyboard_check_pressed(vk_up); 
 downMenu = keyboard_check_pressed(vk_down);
 leftMenu = keyboard_check_pressed(vk_left);

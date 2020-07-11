@@ -1,2 +1,1 @@
-firingDelay = 0;
-canShoot = true
+image_speed = 0;

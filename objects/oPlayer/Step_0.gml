@@ -41,4 +41,21 @@ if(control){
 	}else if(xSpeed < 0){
 		image_xscale = -1;
 	}
+	
+	if(mouseL){
+		state = state.attack;
+	}
+	
+	if(state == state.attack){
+		with(oSword){
+			image_speed = 1;
+			if(animation_end()){
+				state = state.move;
+				image_speed = 0;
+				image_index = 0;
+			}
+		}
+	}
 }
+
+ 
