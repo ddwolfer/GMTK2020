@@ -215,14 +215,6 @@
             }
         },
         {
-            "Key": "4eb7861d-3152-4a36-b662-14dc504a8b07",
-            "Value": {
-                "id": "fabd1eb1-cf3a-40f8-87e2-10a0686b9e62",
-                "resourcePath": "views\\4eb7861d-3152-4a36-b662-14dc504a8b07.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "51220e3d-49e4-4805-84da-24c2508cc56e",
             "Value": {
                 "id": "35f87efb-4cad-42f1-a07c-ec0e6db8cc0d",
@@ -303,22 +295,6 @@
             }
         },
         {
-            "Key": "62b8a0be-8868-4857-a798-eb6b2b34609d",
-            "Value": {
-                "id": "086d3ad6-a320-4e21-b958-9b586579ce16",
-                "resourcePath": "views\\62b8a0be-8868-4857-a798-eb6b2b34609d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "639acfbb-f6f6-499f-b39e-e4821bd34859",
-            "Value": {
-                "id": "6efbde01-f4f8-4857-9a32-2f97fc47c898",
-                "resourcePath": "views\\639acfbb-f6f6-499f-b39e-e4821bd34859.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "63faab9d-e936-49f8-8486-d5bb5ba95774",
             "Value": {
                 "id": "5173605b-7aab-4b4f-98c7-b6a5fcd63dae",
@@ -331,14 +307,6 @@
             "Value": {
                 "id": "7a4b0a9a-bcf4-4221-bca3-1ff48c17db61",
                 "resourcePath": "views\\6465f6e2-4113-4851-9b96-6e85499a6a75.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "67489dcd-3fa2-45ee-9194-79bc6c1936c0",
-            "Value": {
-                "id": "616c5888-69c8-4b0a-ac4d-5f44201018e1",
-                "resourcePath": "views\\67489dcd-3fa2-45ee-9194-79bc6c1936c0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -476,14 +444,6 @@
                 "id": "4068575c-14d0-4714-801e-40a308794105",
                 "resourcePath": "scripts\\button_box_init\\button_box_init.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "9d37ff7b-6d5b-4432-92bc-b0274b9031b5",
-            "Value": {
-                "id": "d16e48d7-057f-44f8-b08b-d482d0a59061",
-                "resourcePath": "views\\9d37ff7b-6d5b-4432-92bc-b0274b9031b5.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
