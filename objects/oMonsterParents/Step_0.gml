@@ -60,6 +60,7 @@ if( MonsterStatus == MonsterStatus.move ){
 }
 //get hit
 if(place_meeting(x, y, oHitBox) && !damaged){
+	add_screenshake(10, 10);
 	damaged = true;
 	hp -= oHitBox.damage;
 	alarm[2] = 30;

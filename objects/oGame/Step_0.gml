@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-//show_debug_message(string(SOUND_VOLUME))
+/*if(room != rMenu && !instance_exists(oPlayer)) {
+	room_goto(rMenu);
+}*/
+

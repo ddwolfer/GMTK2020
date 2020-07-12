@@ -1,3 +1,4 @@
+if(!instance_exists(oPlayer)) exit;
 get_input();
 x = oPlayer.x;
 y = oPlayer.y - 8;

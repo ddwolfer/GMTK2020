@@ -1,7 +1,7 @@
 if(!instance_exists(oPlayer)) exit;
 
-var targetX = oPlayer.x; 
-var targetY = oPlayer.y;
+var targetX = oPlayer.x + random_range(-screenShake, screenShake); 
+var targetY = oPlayer.y + random_range(-screenShake, screenShake);
 
 x = lerp(x, targetX, 0.1);
 y = lerp(y, targetY, 0.1);
