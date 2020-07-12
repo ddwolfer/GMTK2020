@@ -14,6 +14,7 @@ var knockback = argument4
 var lifespan = argument5
 var damage = argument6
 var xscale = argument7
+var angle = argument8
 
 
 var hitbox = instance_create_layer(xPosition, yPosition,"System",oHitBox)
@@ -24,3 +25,4 @@ hitbox.knockback = knockback
 hitbox.damage = damage
 hitbox.alarm[0] = lifespan
 hitbox.image_xscale = xscale
+hitbox.image_angle = angle

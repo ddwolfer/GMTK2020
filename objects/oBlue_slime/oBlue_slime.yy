@@ -5,7 +5,7 @@
     "name": "oBlue_slime",
     "eventList": [
         {
-            "id": "cca8dbf9-3bff-41b8-9977-95d05d5a1f1c",
+            "id": "0449ec99-5614-405a-9d18-bb9697ec5273",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -15,19 +15,19 @@
             "m_owner": "f5ebad5f-4f72-428b-83c5-b3d7a2fc0356"
         },
         {
-            "id": "0a5d5acb-b1a3-452e-a91d-c155dc86c0bc",
+            "id": "936c6201-bdfa-48a7-854c-5b03369a448a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 2,
             "eventtype": 3,
             "m_owner": "f5ebad5f-4f72-428b-83c5-b3d7a2fc0356"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "7cfa726c-994f-4a7c-8578-8a3a457f75c4",
+    "parentObjectId": "980ab5cb-35d4-4560-8b6e-4a586bdf6bcb",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

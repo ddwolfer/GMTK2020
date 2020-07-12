@@ -15,7 +15,7 @@ if( MenuStatus == MenuStatus.main ){
 	//start game
 	else if( button_group_click(MenuGroup) == 0 ){ 
 		audio_play_sound( sdMenuConfirm,2, false)
-		room_goto(room0)
+		room_goto(room1)
 	}
 	//option
 	else if( button_group_click(MenuGroup) == 1 ){
@@ -42,6 +42,16 @@ if( MenuStatus == MenuStatus.main ){
 			scrChangeSoundVolume(0.1)
 		}
 	}
+	if( button_click(decreaseSoundButton) ){
+		scrChangeSoundVolume(-0.1)
+		audio_play_sound( sdMenuSelect,2, false)
+	}
+	if( button_click(increaseSoundButton) ){
+		scrChangeSoundVolume(0.1)
+		audio_play_sound( sdMenuSelect,2, false)
+	}
+	
+	
 	//set fullscreen
 	if( button_group_click(optionGroup) == 1 ){
 		audio_play_sound( sdMenuConfirm,2, false)
