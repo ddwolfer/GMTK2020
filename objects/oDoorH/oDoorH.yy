@@ -4,11 +4,30 @@
     "mvc": "1.0",
     "name": "oDoorH",
     "eventList": [
-        
+        {
+            "id": "96f4fc14-eb37-44de-90ca-87c25bde9310",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "39844ee8-d63f-47f4-8f29-5a4154f3f5aa"
+        },
+        {
+            "id": "cfcf3e9f-5f21-43f5-ad15-0ea3df2e7a6c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "39844ee8-d63f-47f4-8f29-5a4154f3f5aa"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "d991a19a-4825-432b-a9af-c19135131a6a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
