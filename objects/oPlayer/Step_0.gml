@@ -47,20 +47,22 @@ if(control){
 		canAttack = false
 		alarm[0] = attackCooldown * room_speed
 	}
-	if( state == state.move ){
-		oDagger.image_speed = 0;
-		oDagger.image_index = 0;
-	}else if(state == state.attack){
-		create_hit_box(x, y, self, sSwordHitBox, 4, 4, 1, image_xscale);
-		with(oDagger){
-
-			if(animation_end()){
-				oPlayer.state = state.move;
-			}else{
-				image_speed = 1;
+	if(instance_exists(oParentMelee)){ //////if Melee
+		if( state == state.move ){
+			oParentMelee.image_speed = 0;
+			oParentMelee.image_index = 0;
+		}else if(state == state.attack){
+			if(!instance_exists(oHitBox)) create_hit_box(x, y, self, sSwordHitBox, 4, 1, damage, oParentMelee.image_xscale, oParentMelee.image_angle);
+			with(oParentMelee){
+				if(animation_end()){
+					oPlayer.state = state.move;
+				}else{
+					image_speed = 1;
+				}
 			}
 		}
-	}
+
+	}else if(instance_exists(oParentRanged)){}
 }else{
 	sprite_index = sPlayerIdle;
 }

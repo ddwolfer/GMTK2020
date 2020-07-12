@@ -1,1 +1,2 @@
-instance_destroy(oBlue_slime);
+/*var temp = instance_place(x, y, oBlue_slime)
+instance_destroy(temp);*/
