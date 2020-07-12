@@ -15,7 +15,7 @@ if( MenuStatus == MenuStatus.main ){
 	//start game
 	else if( button_group_click(MenuGroup) == 0 ){ 
 		audio_play_sound( sdMenuConfirm,2, false)
-		room_goto(room2)
+		room_goto(room1)
 	}
 	//option
 	else if( button_group_click(MenuGroup) == 1 ){
