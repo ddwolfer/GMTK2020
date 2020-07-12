@@ -62,7 +62,8 @@ if(control){
 			}
 		}
 
-	}else if(instance_exists(oParentRanged)){}
+	}else if(instance_exists(oParentRanged)){}////// if Ranged
 }else{
 	sprite_index = sPlayerIdle;
 }
+show_debug_message("attackCooldown"+string(attackCooldown)+"attack damage"+string(damage));

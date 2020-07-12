@@ -1,4 +1,4 @@
 if(!instance_exists(oPlayer)) exit;
-damage = 5
+damage = oPlayer.damage;
 
 canPierce = false;

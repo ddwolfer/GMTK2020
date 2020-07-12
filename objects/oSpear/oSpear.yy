@@ -2,7 +2,7 @@
     "id": "f254e98c-9324-4058-964d-22d525b6024d",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oHammer",
+    "name": "oSpear",
     "eventList": [
         {
             "id": "c61aaf97-73cd-4a8c-bcf1-c2ecb8880000",
