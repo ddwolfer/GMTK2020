@@ -14,5 +14,3 @@ if(mouseL && canShoot){
 		image_angle = direction - 45;
 	}
 }
-
-show_debug_message(image_angle)

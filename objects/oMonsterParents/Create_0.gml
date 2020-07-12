@@ -26,3 +26,4 @@ damage = 0;
 imageIdle = sBlue_slime_idle
 imageMove = sBlue_slime_move
 imageJump = sBlue_slime_jump
+imageDeath = sBlue_slime_die

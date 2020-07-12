@@ -66,4 +66,4 @@ if(control){
 }else{
 	sprite_index = sPlayerIdle;
 }
-show_debug_message("attackCooldown"+string(attackCooldown)+"attack damage"+string(damage));
+//show_debug_message("attackCooldown"+string(attackCooldown)+"attack damage"+string(damage));

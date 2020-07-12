@@ -2,8 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 
-if( !alarmPlayerFlag && (point_distance(x,y,oPlayer.x,oPlayer.y) < monsterAlarmRange) && (MonsterStatus != MonsterStatus.alarmEnemy) ){
-	show_debug_message("I seeeeee you")
+if((point_distance(x,y,oPlayer.x,oPlayer.y) < monsterAlarmRange) && (MonsterStatus != MonsterStatus.alarmEnemy) ){
 	alarmPlayerFlag = true
 	createAlarmObjectFlag = true
 	MonsterStatus = MonsterStatus.alarmEnemy
@@ -31,3 +30,4 @@ if( MonsterStatus == MonsterStatus.alarmEnemy ){
 		y -= monsterSpeed
 	}
 }
+show_debug_message(hp)
