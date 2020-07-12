@@ -1,1 +1,1 @@
-destroyed = true;
+instance_destroy(self);

@@ -66,4 +66,3 @@ if(place_meeting(x, y, oArrow) && !damaged){
 	hp -= oArrow.damage;
 	alarm[2] = 30;
 }
-show_debug_message(hp)
