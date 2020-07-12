@@ -7,7 +7,7 @@ if( window_get_fullscreen() ){
 }
 var group = argument0
 ButtonGroup = group[?"button"]
-var MX = mouse_x
+var MX = mouse_y
 var MY = mouse_y
 
 //keyboard

@@ -11,6 +11,7 @@ downMenu = keyboard_check_pressed(vk_down);
 leftMenu = keyboard_check_pressed(vk_left);
 rightMenu = keyboard_check_pressed(vk_right);
 start = keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space);
+select = keyboard_check_pressed(vk_escape);
 /*up = keyboard_check(vk_up); 
 down = keyboard_check(vk_down);
 left = keyboard_check(vk_left);
@@ -21,7 +22,7 @@ jump = keyboard_check_pressed(ord("Z"));
 jumpRelease = keyboard_check_released(ord("Z"));
 jumpHold = keyboard_check(ord("Z"));
 
-select = keyboard_check_pressed(vk_escape);
+
 
 leftMenu = keyboard_check_pressed(vk_left);
 rightMenu = keyboard_check_pressed(vk_right);*/
