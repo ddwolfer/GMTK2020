@@ -22,3 +22,7 @@ enum state {
 	attack = 1
 }
 state = state.move
+
+//stats
+damage = 5;
+hp = 6;
