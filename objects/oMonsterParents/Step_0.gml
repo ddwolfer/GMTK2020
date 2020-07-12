@@ -61,3 +61,9 @@ if(place_meeting(x, y, oHitBox) && !damaged){
 	hp -= oHitBox.damage;
 	alarm[2] = 30;
 }
+if(place_meeting(x, y, oArrow) && !damaged){
+	damaged = true;
+	hp -= oArrow.damage;
+	alarm[2] = 30;
+}
+show_debug_message(hp)
