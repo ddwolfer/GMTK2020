@@ -26,5 +26,5 @@ state = state.move
 //stats
 damage = 5;
 rangedDamage = 5;
-hp = 1;
+hp = 6;
 currentWeapon = noone;
