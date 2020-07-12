@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 get_input()
-
+randomize()
 frameCount+=15
 if( !TriggerEnd ){
 	if(place_meeting(x,y,oPlayer) && Page == Page.none ){
@@ -28,11 +28,6 @@ if( !TriggerEnd ){
 			Page = Page.diceShow
 			alarm[1] = 120
 		}
-	}else if(Page != Page.diceRoll && Page != Page.diceShow){
-		//決定 3個不同的素質
-		diceNum1 = irandom_range(1,6)
-		diceNum2 = irandom_range(1,6)
-		diceNum3 = irandom_range(1,6)
 	}
 }
 

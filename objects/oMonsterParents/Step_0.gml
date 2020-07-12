@@ -8,47 +8,50 @@ if( MonsterStatus == MonsterStatus.move && alarmFlag){
 }
 
 if( MonsterStatus == MonsterStatus.idle ){
-	sprite_index = sBlue_slime_idle
+	sprite_index = imageIdle
 }
 if( MonsterStatus == MonsterStatus.move ){
-	sprite_index = sBlue_slime_move
 	//show_debug_message("跑的方向:"+string(move_direction)+"|跑的時間:"+string(move_time*room_speed))
-	if( place_meeting(x + mosterSpeed*2,y,oParentSolid) && place_meeting(x - mosterSpeed*2,y,oParentSolid) ) {
+	if( place_meeting(x + monsterSpeed*2,y,oParentSolid) && place_meeting(x - monsterSpeed*2,y,oParentSolid) ) {
 		move_direction = 2
 	}
-	if( place_meeting(x,y - mosterSpeed*2,oParentSolid) && place_meeting(x ,y+ mosterSpeed*2,oParentSolid) ){
+	if( place_meeting(x,y - monsterSpeed*2,oParentSolid) && place_meeting(x ,y+ monsterSpeed*2,oParentSolid) ){
 		move_direction = 0
 	}
 	
 	var collisionValue = 10
 	if(  move_direction == 0 ){
-		if( !place_meeting(x + mosterSpeed*collisionValue,y,oParentSolid) ){
+		sprite_index = imageMove
+		if( !place_meeting(x + monsterSpeed*collisionValue,y,oParentSolid) ){
 			image_xscale = -1
-			x += mosterSpeed
+			x += monsterSpeed
 		}else{
 			//show_debug_message("我卡住了 救救我>_<")
 			image_xscale = 1
 			move_direction = 1
 		}
 	}else if( move_direction == 1 ){
-		if( !place_meeting(x - mosterSpeed*collisionValue,y,oParentSolid) ){
+		sprite_index = imageMove
+		if( !place_meeting(x - monsterSpeed*collisionValue,y,oParentSolid) ){
 			image_xscale = 1
-			x -= mosterSpeed
+			x -= monsterSpeed
 		}else{
 			//show_debug_message("我卡住了 救救我>_<")
 			image_xscale = -1
 			move_direction = 0
 		}
 	}else if( move_direction == 2 ){
-		if( !place_meeting(x,y - mosterSpeed*collisionValue,oParentSolid) ){
-			y -= mosterSpeed
+		sprite_index = imageJump
+		if( !place_meeting(x,y - monsterSpeed*collisionValue,oParentSolid) ){
+			y -= monsterSpeed
 		}else{
 			//show_debug_message("我卡住了 救救我>_<")
 			move_direction = 3
 		}
 	}else if( move_direction == 3 ){
-		if( !place_meeting(x ,y+ mosterSpeed*collisionValue,oParentSolid) ){
-			y += mosterSpeed
+		sprite_index = imageJump
+		if( !place_meeting(x ,y+ monsterSpeed*collisionValue,oParentSolid) ){
+			y += monsterSpeed
 		}else{
 			//show_debug_message("我卡住了 救救我>_<")
 			move_direction = 2
