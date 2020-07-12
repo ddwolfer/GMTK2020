@@ -66,4 +66,12 @@ if(control){
 }else{
 	sprite_index = sPlayerIdle;
 }
+
+if(place_meeting(x, y, oMonsterParents) && !damaged){
+	hp -= 1
+	damaged = true;
+	alarm[1] = 60;
+	add_screenshake(50, 15);
+}
+
 //show_debug_message("attackCooldown"+string(attackCooldown)+"attack damage"+string(damage));

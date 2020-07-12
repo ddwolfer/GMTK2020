@@ -23,7 +23,7 @@ if( !TriggerEnd ){
 			diceNum1 = irandom_range(1,6)
 			diceNum2 = irandom_range(1,6)
 			diceNum3 = irandom_range(1,6)
-			show_debug_message(string(diceNum1)+"|"+string(diceNum2)+"|"+string(diceNum3)+"|")
+			//show_debug_message(string(diceNum1)+"|"+string(diceNum2)+"|"+string(diceNum3)+"|")
 			Page = Page.diceShow
 			alarm[1] = 120
 		}

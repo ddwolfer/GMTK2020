@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0dd169e0-a426-472e-aa19-e1709b70b1d5",
+            "Value": {
+                "id": "3ac8eaea-1080-45b9-8203-933b3f940d88",
+                "resourcePath": "sprites\\sDoorV\\sDoorV.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0e068892-193a-4cf4-a36b-6ae77f6400fb",
             "Value": {
                 "id": "8abab787-caba-44d5-9970-fe273eb1270d",
@@ -107,6 +115,14 @@
             "Value": {
                 "id": "235d75b0-1ee6-4c1e-9f7a-81abeb9c9bb6",
                 "resourcePath": "sprites\/sSpear\/sSpear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1dd06618-6eb1-4db4-9e23-8175286177e8",
+            "Value": {
+                "id": "7b856876-082c-4794-a263-3afb1760fc14",
+                "resourcePath": "sprites\\sDoorH\\sDoorH.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -219,6 +235,14 @@
             "Value": {
                 "id": "10705e0b-a800-4a0f-b20e-ce01823ca0ed",
                 "resourcePath": "objects\/oMenu\/oMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "39844ee8-d63f-47f4-8f29-5a4154f3f5aa",
+            "Value": {
+                "id": "f823f3b4-d543-4f98-a70e-c48ea8776d1d",
+                "resourcePath": "objects\\oDoorH\\oDoorH.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -356,6 +380,22 @@
                 "id": "088886ca-c08e-40ef-9586-b0b525c2897c",
                 "resourcePath": "views\/56771cc4-cdd7-48e9-b8a6-e735b4c0b5a2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "569ac4f2-f8ce-464c-9f53-c3d01bc96882",
+            "Value": {
+                "id": "352456ee-3770-46d8-9d64-c4228cf4bcd4",
+                "resourcePath": "objects\\oMonsterSpawner\\oMonsterSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "586644cc-be4e-47d1-8fbe-b421305efa1c",
+            "Value": {
+                "id": "966b624f-9fd9-41d2-b411-06e583b8740d",
+                "resourcePath": "sprites\\sTrigger\\sTrigger.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -767,6 +807,14 @@
             }
         },
         {
+            "Key": "c48936ed-2191-425e-946d-1459c7fc30fb",
+            "Value": {
+                "id": "f6da5bd5-3084-4a64-a284-26dc4c27cd5c",
+                "resourcePath": "scripts\\add_screenshake\\add_screenshake.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c6361464-5bac-4ba9-9a5c-d1c952f42e7d",
             "Value": {
                 "id": "67934dc2-b970-42cb-a324-1273319c7e45",
@@ -835,6 +883,14 @@
             "Value": {
                 "id": "41d03859-da21-4d8e-8011-33427b6f52c2",
                 "resourcePath": "sprites\/sHammer\/sHammer.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d7bd6e08-7b0f-4206-b2fb-a0af2f15504d",
+            "Value": {
+                "id": "dba73687-0ed8-4499-be4d-fc6ee7d8ce10",
+                "resourcePath": "sprites\\sPlayerDie\\sPlayerDie.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -932,6 +988,14 @@
                 "id": "11fe4da5-edbb-4f58-8862-7f1d9930ca79",
                 "resourcePath": "sprites\/sSwordHitBox\/sSwordHitBox.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f17abb78-2505-4b1a-80a4-4413afc17576",
+            "Value": {
+                "id": "a7d7cbd2-f371-4ebb-ab05-e18c83128ac8",
+                "resourcePath": "objects\\oDoorV\\oDoorV.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1037,7 +1101,8 @@
         "a831a3ba-7cd3-4bae-b282-bad3cbac0e23",
         "0ee51316-986f-4150-a275-8e5d2bd8e163",
         "0c7437b4-c659-45ad-ab05-59d2795f051b",
-        "2941bd97-f524-4d82-9e53-d2bfd606170a"
+        "2941bd97-f524-4d82-9e53-d2bfd606170a",
+        "c48936ed-2191-425e-946d-1459c7fc30fb"
     ],
     "tutorial": ""
 }
