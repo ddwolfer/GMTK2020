@@ -5,13 +5,33 @@
     "name": "oArrow",
     "eventList": [
         {
-            "id": "736d5d58-956e-424d-9e08-de04e85324c8",
+            "id": "d2fda0a5-a18b-4cfb-ab4d-b08c73d7b9ac",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "fb36c6b7-9240-4865-aba5-fdeab26fc46d",
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 4,
+            "eventtype": 3,
+            "m_owner": "fd69ab9b-3fe6-4091-a3fe-1ad0d6b499f1"
+        },
+        {
+            "id": "10040b45-b26a-4b72-a0e9-7e6e8b718691",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fd69ab9b-3fe6-4091-a3fe-1ad0d6b499f1"
+        },
+        {
+            "id": "54e845ef-71f6-4b8d-98b1-40182cd6987d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
             "m_owner": "fd69ab9b-3fe6-4091-a3fe-1ad0d6b499f1"
         }
     ],

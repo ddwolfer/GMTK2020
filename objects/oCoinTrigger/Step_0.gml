@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+if(!instance_exists(oPlayer)) exit;
 get_input()
 randomize()
 frameCount+=15
@@ -29,5 +28,61 @@ if( !TriggerEnd ){
 			alarm[1] = 120
 		}
 	}
+}
+
+if(TriggerEnd){
+	if(instance_exists(oParentMelee)) instance_destroy(oParentMelee);
+	else if(instance_exists(oParentRanged)) instance_destroy(oParentRanged);
+	switch(coinNum){
+		case 1:  //melee
+			if(diceNum1 == 1) {oPlayer.attackCooldown = 1.5};  //attack speed
+			else if(diceNum1 == 2) {oPlayer.attackCooldown = 1.1};
+			else if(diceNum1 == 3) {oPlayer.attackCooldown = 0.9};
+			else if(diceNum1 == 4) {oPlayer.attackCooldown = 0.7};
+			else if(diceNum1 == 5) {oPlayer.attackCooldown = 0.5};
+			else if(diceNum1 == 6) {oPlayer.attackCooldown = 0.3};
+			
+			if(diceNum2 == 1 || diceNum2 == 2){  //attack range
+				with(oPlayer) instance_create_layer(x, y, "Weapon", oDagger)
+			};
+			else if(diceNum2 == 3 || diceNum2 == 4){
+				with(oPlayer) instance_create_layer(x, y, "Weapon", oSword)
+			};
+			else if(diceNum2 == 5 || diceNum2 == 6){
+				with(oPlayer) instance_create_layer(x, y, "Weapon", oSpear)
+			};
+			
+			if(diceNum3 == 1) {oPlayer.damage = 2};  //attack damage
+			else if(diceNum3 == 2) {oPlayer.damage = 3};
+			else if(diceNum3 == 3) {oPlayer.damage = 5};
+			else if(diceNum3 == 4) {oPlayer.damage = 7};
+			else if(diceNum3 == 5) {oPlayer.damage = 10};
+			else if(diceNum3 == 6) {oPlayer.damage = 15};
+			break;
+			
+		case 2:  //ranged
+			if(diceNum1 == 1) {oPlayer.attackCooldown = 1.5};  //attack speed
+			else if(diceNum1 == 2) {oPlayer.attackCooldown = 1.1};
+			else if(diceNum1 == 3) {oPlayer.attackCooldown = 0.9};
+			else if(diceNum1 == 4) {oPlayer.attackCooldown = 0.7};
+			else if(diceNum1 == 5) {oPlayer.attackCooldown = 0.5};
+			else if(diceNum1 == 6) {oPlayer.attackCooldown = 0.3};
+			
+			if(diceNum2 == 1 || diceNum2 == 2 || diceNum2 == 3){  //attack range
+				with(oPlayer) instance_create_layer(x, y, "Weapon", oBow)
+			};
+			else if(diceNum2 == 4 || diceNum2 == 5 || diceNum2 == 6){
+				with(oPlayer) instance_create_layer(x, y, "Weapon", oBow)
+			};
+			
+			if(diceNum3 == 1) {oPlayer.damage = 2};  //attack damage
+			else if(diceNum3 == 2) {oPlayer.damage = 3};
+			else if(diceNum3 == 3) {oPlayer.damage = 5};
+			else if(diceNum3 == 4) {oPlayer.damage = 7};
+			else if(diceNum3 == 5) {oPlayer.damage = 10};
+			else if(diceNum3 == 6) {oPlayer.damage = 15};
+			break;
+	}
+	instance_destroy(self);
 }
 
