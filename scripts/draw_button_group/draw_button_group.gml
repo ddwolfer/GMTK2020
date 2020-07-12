@@ -1,14 +1,15 @@
 ///@arg GroupID
 ///@arg button_Color 
 ///@arg mouse_on_button_Color
+
 var windowSize =  window_get_width()/room_width
 if( window_get_fullscreen() ){
 	windowSize = 2
 }
 var group = argument0
 ButtonGroup = group[?"button"]
-var MX = mouse_y
-var MY = mouse_y
+var MX = 0
+var MY = 0
 
 //keyboard
 if( group[?"direction"] == 0 ){
@@ -63,13 +64,10 @@ for( var i = 0 ; i < array_length_1d(ButtonGroup) ; i++ ){
 	DrawY2 = windowSize * Button[?"y2"]
 	centerX = (DrawX1 + DrawX2)/2
 	centerY = (DrawY1 + DrawY2)/2
-	
+	draw_set_color(argument1)
+	draw_rectangle(DrawX1, DrawY1, DrawX2, DrawY2, 0)
 	if( Button[?"cursor"] == 1 ){
-		draw_set_color(argument2)
-		draw_rectangle(DrawX1, DrawY1, DrawX2, DrawY2, 0)
-	}else{
-		draw_set_color(argument1)
-		draw_rectangle(DrawX1, DrawY1, DrawX2, DrawY2, 0)
+		draw_rectengle_width(DrawX1, DrawY1, DrawX2, DrawY2,5,argument2)
 	}
 	draw_set_color(c_black)
 	draw_set_halign(fa_center)

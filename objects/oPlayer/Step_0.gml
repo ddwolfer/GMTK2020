@@ -43,6 +43,11 @@ if(control){
 	}
 	
 	if(mouseL && canAttack){
+		if( currentWeapon == 1 ){
+			audio_play_sound(sdMeleeAttack,2,0)
+		}else{
+			audio_play_sound(sdBowShoot,2,0)
+		}
 		state = state.attack;
 		canAttack = false
 		alarm[0] = attackCooldown * room_speed

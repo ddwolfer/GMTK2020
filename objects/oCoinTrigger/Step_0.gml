@@ -35,6 +35,7 @@ if(TriggerEnd){
 	else if(instance_exists(oParentRanged)) instance_destroy(oParentRanged);
 	switch(coinNum){
 		case 1:  //melee
+			oPlayer.currentWeapon = 1
 			if(diceNum1 == 1) {oPlayer.attackCooldown = 1.5};  //attack speed
 			else if(diceNum1 == 2) {oPlayer.attackCooldown = 1.1};
 			else if(diceNum1 == 3) {oPlayer.attackCooldown = 0.9};
@@ -61,6 +62,7 @@ if(TriggerEnd){
 			break;
 			
 		case 2:  //ranged
+			oPlayer.currentWeapon = 2
 			if(diceNum1 == 1) {oPlayer.attackCooldown = 1.5};  //attack speed
 			else if(diceNum1 == 2) {oPlayer.attackCooldown = 1.1};
 			else if(diceNum1 == 3) {oPlayer.attackCooldown = 0.9};

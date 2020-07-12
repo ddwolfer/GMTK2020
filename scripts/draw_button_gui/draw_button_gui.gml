@@ -8,8 +8,8 @@ if( window_get_fullscreen() ){
 	windowSize = 2
 }
 var Button = argument0
-var MX = mouse_x
-var MY = mouse_y
+var MX = 0
+var MY = 0
 
 DrawX1 = windowSize * Button[?"x1"]
 DrawX2 = windowSize * Button[?"x2"]

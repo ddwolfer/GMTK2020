@@ -3,7 +3,7 @@
 if( MenuInGame!=MenuInGame.close ){
 	black_rectangle(0.4)
 	if( MenuInGame==MenuInGame.main ){
-		draw_button_group(MenuGroup,c_white,c_gray)
+		draw_button_group(MenuGroup,$B2B2B2,c_white)
 	}
 }
 

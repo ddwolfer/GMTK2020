@@ -15,7 +15,10 @@ if( MenuStatus == MenuStatus.main ){
 	//start game
 	else if( button_group_click(MenuGroup) == 0 ){ 
 		audio_play_sound( sdMenuConfirm,2, false)
-		room_goto(room2)
+		with(oGame){
+			targetRoom = room2
+			doTransition = true
+		}
 	}
 	//option
 	else if( button_group_click(MenuGroup) == 1 ){
@@ -29,7 +32,7 @@ if( MenuStatus == MenuStatus.main ){
 		audio_play_sound( sdMenuSelect,2, false)
 	}
 	//back to main menu
-	if( button_group_click(optionGroup) == 2 ){
+	if( button_group_click(optionGroup) == 1 ){
 		audio_play_sound( sdMenuConfirm,2, false)
 		MenuStatus = MenuStatus.main
 	}
@@ -51,16 +54,5 @@ if( MenuStatus == MenuStatus.main ){
 		audio_play_sound( sdMenuSelect,2, false)
 	}
 	
-	
-	//set fullscreen
-	if( button_group_click(optionGroup) == 1 ){
-		audio_play_sound( sdMenuConfirm,2, false)
-		if( window_get_fullscreen() ){
-			window_set_fullscreen(false)
-		}else{
-			window_set_fullscreen(true)
-		}
-		
-	}
 }
 

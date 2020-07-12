@@ -60,12 +60,14 @@ if( MonsterStatus == MonsterStatus.move ){
 }
 //get hit
 if(place_meeting(x, y, oHitBox) && !damaged){
+	audio_play_sound(sdHurtMonster,2,0)
 	add_screenshake(10, 10);
 	damaged = true;
 	hp -= oHitBox.damage;
 	alarm[2] = 30;
 }
 if(place_meeting(x, y, oArrow) && !damaged){
+	audio_play_sound(sdHurtMonster,2,0)
 	damaged = true;
 	hp -= oArrow.damage;
 	alarm[2] = 30;

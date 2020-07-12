@@ -3,10 +3,11 @@
 group = argument0
 buttonGroup = group[?"button"]
 
-var MX = mouse_x
-var MY = mouse_y
+var MX = 0
+var MY = 0
 
 if( keyboard_check_pressed(vk_enter) ){
+	show_debug_message(group[?"cursor"])
 	return group[?"cursor"]
 }
 if( mouse_check_button_pressed(mb_left) ){
