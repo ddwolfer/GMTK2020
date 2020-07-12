@@ -1119,6 +1119,14 @@
             }
         },
         {
+            "Key": "f8598b13-3ba5-47b0-abaf-640fecdb5652",
+            "Value": {
+                "id": "a25968a3-c46f-4308-8d8b-eb7bb3c31080",
+                "resourcePath": "objects\\oRed_bat\\oRed_bat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "fa72366b-9ebc-49c2-a9a8-eee0b5bb115c",
             "Value": {
                 "id": "a12cf352-42cf-455f-af8f-1219dc5bf710",

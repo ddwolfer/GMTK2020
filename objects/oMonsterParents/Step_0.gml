@@ -1,4 +1,4 @@
-if( MonsterStatus == MonsterStatus.idle && alarmFlag ){
+oif( MonsterStatus == MonsterStatus.idle && alarmFlag ){
 	alarmFlag = 0
 	alarm[0] = move_time * room_speed
 }

@@ -1,10 +1,10 @@
 event_inherited()
 image_speed = 0.5
 monsterSpeed = 0.4
-monsterAlarmRange = 150
+monsterAlarmRange = 100
 
-hp = 1;
-damage = 1;
+hp = 8;
+damage = 2;
 
 imageIdle = sPoison_slime_idle
 imageMove = sPoison_slime_move
